@@ -1,0 +1,50 @@
+/* MemoryGame.css */
+.memory-game {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  height: 100px;
+  background-color: #f97171;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card.flipped {
+  background-color: #e3bb9a; /* Cambia el color al voltear la tarjeta */
+  color: #fff;
+}
+
+.card.matched {
+  background-color: #ff8ba6; /* Cambia el color cuando se encuentran coincidencias */
+}
+
+/* Estilos para el contenedor del mensaje de felicitaciones y el botón */
+div > p {
+  margin-bottom: 10px;
+}
+
+div > button {
+  text-align: center;
+  background-color: #fb6161;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+div > button:hover {
+  background-color: #e74848; /* Cambia el color al pasar el ratón sobre el botón */
+}

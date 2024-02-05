@@ -1,0 +1,32 @@
+/* MazeGame.css */
+.cont{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.maze-container {
+  display: grid;
+ text-align: center;
+  gap: 2px;
+}
+
+.maze-row {
+  display: flex;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e7b7b7;
+}
+
+.wall {
+  background-color: #92694b;
+}
+
+.player {
+  background-color: #ee82dc;
+}

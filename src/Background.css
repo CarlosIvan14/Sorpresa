@@ -1,0 +1,56 @@
+.background {
+    background-color: #000; /* Fondo oscuro */
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .flowers {
+    position: relative;
+    height: 100%;
+  }
+  
+  .flower {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ff00ff; /* Color de la flor (puedes cambiarlo) */
+    box-shadow: 0 0 10px #ff00ff; /* Sombra de la flor */
+    animation: glow 2s infinite alternate ease-in-out, move 5s infinite alternate ease-in-out;
+  }
+  
+  .flower--1 {
+    top: 20%;
+    left: 30%;
+  }
+  
+  .flower--2 {
+    top: 50%;
+    left: 70%;
+  }
+  
+  .flower--3 {
+    top: 80%;
+    left: 40%;
+  }
+  
+  /* Puedes agregar más estilos para flores adicionales */
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; /* Efecto de brillo */
+    }
+    100% {
+      box-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff; /* Efecto de brillo */
+    }
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  

@@ -1,0 +1,62 @@
+/* Carta.css */
+
+.carta-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #ffecb3; /* Color de fondo de la carta */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  }
+ 
+  .carta-container.open {
+    transform: rotateY(180deg);
+  }
+  
+  .heart {
+    font-size: 36px;
+    color: #ff4d4d; /* Color del corazón */
+    transition: opacity 0.5s ease-in-out;
+  }
+  .sobre {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heart.fade-out {
+    opacity: 0;
+  }
+  .contenido {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    transition: opacity 0.5s ease-in-out;
+  }
+  .fade-in {
+    opacity: 1;
+  }
+  
+  .mensaje {
+    text-align: center;
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+
+  }
+  
+  .mensaje p {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #000000; /* Color del texto del mensaje */
+    font-style: italic;
+  }  
