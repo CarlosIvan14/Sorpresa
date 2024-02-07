@@ -61,7 +61,6 @@ const MemoryGame = ({ onCompletion }) => {
       }, 1000);
     }
   };
-
   const handleCardClick = (id) => {
     setFlippedCount((prevCount) => prevCount + 1);
     setCards((prevCards) =>
@@ -70,7 +69,6 @@ const MemoryGame = ({ onCompletion }) => {
       )
     );
   };
-
   return (
     <div>
       <p>Para empezar con este regalo, vamos a jugar memorama, lo que tienes que haces es sencillo da click en una carta y luego en otra, si coinciden se pondran de un color diferente, si no lo hacen espera a que vuelvan a voltarse para intentarlo de nuevo,tienes intentos infinitos para hacerlas coincidir, tu puedes.</p>

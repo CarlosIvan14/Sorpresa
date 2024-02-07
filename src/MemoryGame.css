@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 1vw; /* Cambia el tamaño de la fuente en relación con el ancho de la ventana */
   font-weight: bold;
   height: 100px;
   background-color: #f97171;
@@ -19,6 +19,13 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+@media (max-width: 768px) {
+  .card {
+    font-size: 3vw; /* Cambia el tamaño de la fuente para dispositivos móviles */
+  }
+}
+
 
 .card.flipped {
   background-color: #e3bb9a; /* Cambia el color al voltear la tarjeta */
