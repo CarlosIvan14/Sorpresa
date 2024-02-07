@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sorpresa/build/static/css/main.63667044.css",
-    "main.js": "/Sorpresa/build/static/js/main.2a4dbfd3.js",
+    "main.css": "/Sorpresa/build/static/css/main.925aab1f.css",
+    "main.js": "/Sorpresa/build/static/js/main.74f95104.js",
     "static/js/787.dd8685e3.chunk.js": "/Sorpresa/build/static/js/787.dd8685e3.chunk.js",
     "static/media/mai.mp3": "/Sorpresa/build/static/media/mai.1103e377b2d380908cd2.mp3",
     "static/media/puzzle_image.jpeg": "/Sorpresa/build/static/media/puzzle_image.18ecbc1dbdda8cea1a7e.jpeg",
@@ -11,12 +11,12 @@
     "static/media/flower3.png": "/Sorpresa/build/static/media/flower3.a78c5fe298bcda24189f.png",
     "static/media/flower1.png": "/Sorpresa/build/static/media/flower1.5a9459fbac956551b105.png",
     "index.html": "/Sorpresa/build/index.html",
-    "main.63667044.css.map": "/Sorpresa/build/static/css/main.63667044.css.map",
-    "main.2a4dbfd3.js.map": "/Sorpresa/build/static/js/main.2a4dbfd3.js.map",
+    "main.925aab1f.css.map": "/Sorpresa/build/static/css/main.925aab1f.css.map",
+    "main.74f95104.js.map": "/Sorpresa/build/static/js/main.74f95104.js.map",
     "787.dd8685e3.chunk.js.map": "/Sorpresa/build/static/js/787.dd8685e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63667044.css",
-    "static/js/main.2a4dbfd3.js"
+    "static/css/main.925aab1f.css",
+    "static/js/main.74f95104.js"
   ]
 }
